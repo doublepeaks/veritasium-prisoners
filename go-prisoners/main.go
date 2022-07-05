@@ -55,5 +55,5 @@ func main() {
 			die++
 		}
 	}
-	log("%v%% escapes", (100*float64(live))/(float64(live)+float64(die)))
+	log("%.2f%% escapes", (100*float64(live))/(float64(live)+float64(die)))
 }
